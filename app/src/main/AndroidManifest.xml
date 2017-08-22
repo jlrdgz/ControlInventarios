@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jlrdgz.com.mx.controlinventarios">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ControlInventarios">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AltaUsuario"
+            android:label="ALTA DE USUARIO" />
+        <activity
+            android:name=".ModificaInfo"
+            android:label="MODIFICA INFO" />
+        <activity
+            android:name=".AsignaEquipo"
+            android:label="ASIGNA EQUIPO" />
+        <activity
+            android:name=".BajaEquipo"
+            android:label="BAJA DE EQUIPO" />
+        <activity
+            android:name=".FallaEquipo"
+            android:label="FALLA DE EQUIPO" />
+        <activity
+            android:name=".Faltante"
+            android:label="SOFTWARE Y EQUIPO FALTANTE"></activity>
+        <activity android:name=".GenerarReporte" android:label="GENERAR REPORTE"></activity>
+    </application>
+
+</manifest>

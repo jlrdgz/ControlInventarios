@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jlrdgz.com.mx.controlinventarios.ControlInventarios">
+
+    <TableLayout
+        android:layout_width="368dp"
+        android:layout_height="477dp"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="25dp">
+
+        <TableRow
+            android:id="@+id/RENGLON1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="lanzarAltaUsuario"
+                android:text="Alta Usuario"
+                android:visibility="visible"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="32dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/RENGLON2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="165dp"
+                android:layout_height="48dp"
+                android:text="MODIFICA USUARIO"
+                tools:layout_editor_absoluteX="175dp"
+                tools:layout_editor_absoluteY="48dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/RENGLON3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="lanzarModificaInfo"
+                android:text="MODIFICA INFORMACIÓN" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/renglon4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="lanzarAsiignaEquipo"
+                android:text="ASIGNA EQUIPO" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/renglon5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="lanzarBajaEquipo"
+                android:text="BAJA EQUIPO" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/RENGLON6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="lanzarFallaEquipo"
+                android:text="FALLA EQUIPO" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/renglon7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="lanzarFaltante"
+                android:text="FALTANTE" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/renglon8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="lanzarReporte"
+                android:text="REPORTE EQUIPO"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="353dp" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
